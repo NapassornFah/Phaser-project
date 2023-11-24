@@ -13,6 +13,10 @@ node_modules/**/*
 # Ignore yarn.lock
 yarn.lock
 
+# Ignore .yarn
+.yarn/
+.yarn/install-state.gz
+
 # Ignore dev directories
 dev/
 dev-ssr/
